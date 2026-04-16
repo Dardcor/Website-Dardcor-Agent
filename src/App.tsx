@@ -5,8 +5,8 @@ function App() {
     <div className="min-h-screen flex flex-col font-sans selection:bg-brand-500 selection:text-white">
       {/* Navigation */}
       <nav className="flex items-center justify-between px-6 py-4 md:px-12 backdrop-blur-md sticky top-0 z-50 border-b border-brand-900/30">
-        <div className="flex items-center gap-2">
-          <Terminal className="text-brand-500" size={24} />
+        <div className="flex items-center gap-3">
+          <img src="/dardcor.png" alt="Dardcor Logo" className="h-10 w-auto object-contain rounded-md" />
           <span className="font-mono font-bold text-xl tracking-tight text-white">Dardcor<span className="text-brand-500">_</span></span>
         </div>
         <div className="flex items-center gap-4">
