@@ -13,7 +13,7 @@
   --color-brand-950: #3b0764;
   --color-bg-dark: #0A0410;
   --color-bg-panel: #13081E;
-  
+
   --font-mono: 'JetBrains Mono', 'Fira Code', 'Roboto Mono', monospace;
   --font-sans: 'Inter', system-ui, sans-serif;
 }
@@ -28,12 +28,29 @@
   .text-glow {
     text-shadow: 0 0 10px rgba(168, 85, 247, 0.5);
   }
-  
+
   .box-glow {
     box-shadow: 0 0 15px rgba(168, 85, 247, 0.2);
   }
-  
+
   .box-glow-strong {
     box-shadow: 0 0 30px rgba(168, 85, 247, 0.4);
+  }
+
+  .custom-scrollbar::-webkit-scrollbar {
+    width: 6px;
+  }
+
+  .custom-scrollbar::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  .custom-scrollbar::-webkit-scrollbar-thumb {
+    background: #581c87;
+    border-radius: 10px;
+  }
+
+  .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+    background: #7e22ce;
   }
 }
