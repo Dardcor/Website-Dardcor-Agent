@@ -101,7 +101,7 @@ const TerminalDemo = () => {
         </div>
         <div className="mx-auto text-xs text-slate-500 font-mono tracking-widest uppercase">Autonomous Agent</div>
       </div>
-      <div id="terminal-content" className="p-6 text-left font-mono text-xs sm:text-sm md:text-base leading-relaxed h-[400px] overflow-y-auto custom-scrollbar bg-[#05010a]">
+      <div id="terminal-content" className="p-6 text-left font-mono text-xs sm:text-sm md:text-base leading-relaxed h-[400px] overflow-y-auto no-scrollbar bg-[#05010a]">
         <AnimatePresence mode="popLayout">
           {lines.map((line, i) => (
             <motion.div
